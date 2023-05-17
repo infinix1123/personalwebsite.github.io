@@ -1,0 +1,34 @@
+*{margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1% 4%;
+}
+nav a{
+	color: #fff;
+	font-size: x-large;
+	text-decoration: none;
+} 
+
+
+.nav-links{
+	flex: 1;
+	text-align: right;
+
+}
+.nav-links ul li{
+	display: inline-block;
+	margin: 5px 20px;
+}
+.nav-links ul li a{
+	font-size: 14px;
+	text-decoration: none;
+}
+
+}
